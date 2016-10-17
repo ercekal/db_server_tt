@@ -4,6 +4,9 @@ The aim of this project is to successfully prepare a tech test for below questio
 - RSpec
 - Capybara
 
+
+When the git repo is cloned `bundle install` should be run to load gem files.
+
 ----
 
 You receive a message from a prospective employer:
