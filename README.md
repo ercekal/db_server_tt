@@ -1,6 +1,8 @@
 The aim of this project is to successfully prepare a tech test for below question. Technologies used are:
 
 - Sinatra
+- RSpec
+
 
 ----
 
