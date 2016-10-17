@@ -1,0 +1,22 @@
+{
+  "name": "db_server_tt",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ercekal/db_server_tt.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ercekal/db_server_tt/issues"
+  },
+  "homepage": "https://github.com/ercekal/db_server_tt#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
