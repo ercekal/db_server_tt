@@ -4,18 +4,23 @@ require "sinatra/base"
 class DBTest < Sinatra::Base
 
   set :port, 4000
+  enable :sessions
+  set :session_secret, "My session secret"
 
   get '/' do
    "Hello world!"
   end
 
   get '/set' do
-    list = params.to_s
-    "your params are #{list}"
+    key = params.flatten[0]
+    value = params.flatten[1]
+    session[key] = value
+    "key is #{key} and value is #{value} and #{params}"
   end
 
-  get '/get/?' do
-    erb request.cookies['foo']
+  get '/get' do
+    value = params.flatten[1]
+      "#{session[value]}"
   end
 
   run! if app_file == $0

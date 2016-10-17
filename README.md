@@ -2,7 +2,7 @@ The aim of this project is to successfully prepare a tech test for below questio
 
 - Sinatra
 - RSpec
-
+- Capybara
 
 ----
 
